@@ -7,7 +7,7 @@ const path = require('path');
 // Constants
 const TEST_SERVER_BASE_URL = 'http://20.244.56.144/evaluation-service';
 const PORT = process.env.PORT || 3000;
-const AUTH_FILE_PATH = path.join(__dirname, 'auth_credentials.json');
+const AUTH_FILE_PATH = path.join(__dirname, 'auth_token.json');
 
 // Initialize Express app
 const app = express();

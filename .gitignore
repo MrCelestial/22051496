@@ -1,0 +1,3 @@
+# Ignore auth files
+auth_token.json
+auth_credentials.json

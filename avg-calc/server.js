@@ -12,7 +12,7 @@ app.use(express.json());
 const WINDOW_SIZE = 10;
 const REQUEST_TIMEOUT = 500; // ms
 const TEST_SERVER_URL = 'http://20.244.56.144';
-const AUTH_FILE_PATH = path.join(__dirname, 'auth_credentials.json');
+const AUTH_FILE_PATH = path.join(__dirname, 'auth_token.json');
 
 // API endpoint mapping
 const API_ENDPOINTS = {
